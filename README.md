@@ -108,4 +108,4 @@ Email [jaime@livecrm.ai](mailto:jaime@livecrm.ai). Issues on this repository are
 
 ## License
 
-The contents of this repository are released under the [MIT License](LICENSE). The LiveCRM service itself is governed by the [Master Subscription Agreement](https://livecrm.ai/msa).
+The contents of this repository are released under the [MIT License](LICENSE). The LiveCRM name and logo are trademarks of LiveCRM, Inc. and are not licensed under the MIT License. This repository contains documentation only; the LiveCRM service and its source code are proprietary, and use of the service is governed by the [Master Subscription Agreement](https://livecrm.ai/msa).
