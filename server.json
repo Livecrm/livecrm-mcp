@@ -3,8 +3,12 @@
   "name": "ai.livecrm/livecrm",
   "title": "LiveCRM",
   "description": "Salesforce & HubSpot: dedupe, normalize, enrich, assign, job change, create, mass update, segment",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://livecrm.ai/mcp",
+  "repository": {
+    "url": "https://github.com/Livecrm/livecrm-mcp",
+    "source": "github"
+  },
   "icons": [
     {
       "src": "https://livecrm.ai/assets/connector-icon.png",

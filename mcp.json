@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "livecrm": {
+      "url": "https://api.livecrm.ai/mcp"
+    }
+  }
+}
