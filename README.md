@@ -68,7 +68,7 @@ Any other client that supports remote MCP servers with OAuth works the same way:
 
 ## Tools
 
-Seventy tools. Thirty-nine only read: they answer from LiveCRM's own mirror of your CRM and never touch the CRM itself. Thirty-one change something, and each sits behind a named permission. Every tool declares whether it reads, whether it destroys, and whether it reaches outside LiveCRM, so your client can decide what needs confirming.
+Seventy-one tools. Forty only read: they answer from LiveCRM's own mirror of your CRM and never touch the CRM itself. Thirty-one change something, and each sits behind a named permission. Every tool declares whether it reads, whether it destroys, and whether it reaches outside LiveCRM, so your client can decide what needs confirming.
 
 ### Read
 
@@ -76,7 +76,7 @@ Seventy tools. Thirty-nine only read: they answer from LiveCRM's own mirror of y
 |---|---|
 | `crm:read` | `count_crm_objects`, `count_crm_records`, `get_crm_record`, `list_crm_connections`, `list_crm_users`, `list_filterable_fields` |
 | `runs:read` | `get_data_health`, `get_operational_health`, `get_plan`, `get_readiness_recommendations`, `get_readiness_scan`, `get_run`, `get_run_records`, `get_usage_summary`, `list_employer_changes`, `list_plans`, `list_runs`, `list_search_criteria`, `preview_plan_reversal` |
-| `runs:preview` | `preview_enrichment_run`, `preview_mass_update_run`, `preview_records_run` |
+| `runs:preview` | `preview_create_search`, `preview_enrichment_run`, `preview_mass_update_run`, `preview_records_run` |
 | `templates:read` | `get_assignment_config`, `get_default_rule_config`, `get_market_whitespace`, `get_normalize_catalog`, `get_persona_whitespace`, `get_rule_template`, `get_tam`, `get_tam_outward`, `list_rule_templates`, `list_whitespace_companies`, `preview_normalize_scheme` |
 | `dedup:read` | `get_duplicate_group`, `list_duplicate_groups` |
 | `audit:read` | `get_audit_event_records`, `list_audit_events` |
