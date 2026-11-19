@@ -68,7 +68,7 @@ Any other client that supports remote MCP servers with OAuth works the same way:
 
 ## Tools
 
-Seventy-one tools. Forty only read: they answer from LiveCRM's own mirror of your CRM and never touch the CRM itself. Thirty-one change something, and each sits behind a named permission. Every tool declares whether it reads, whether it destroys, and whether it reaches outside LiveCRM, so your client can decide what needs confirming.
+Seventy-two tools. Forty only read: they answer from LiveCRM's own mirror of your CRM and never touch the CRM itself. Thirty-two change something, and each sits behind a named permission. Every tool declares whether it reads, whether it destroys, and whether it reaches outside LiveCRM, so your client can decide what needs confirming.
 
 ### Read
 
@@ -87,7 +87,7 @@ Seventy-one tools. Forty only read: they answer from LiveCRM's own mirror of you
 | Permission | Tools |
 |---|---|
 | `runs:create` | `create_alert_run`, `create_assignment_run`, `create_deduplication_run`, `create_enrichment_run`, `create_job_change_run`, `create_mass_update_run`, `create_normalize_run`, `create_plan`, `create_records_run`, `create_score_run`, `create_segmentation_run`, `create_verification_run`, `update_plan_inputs` |
-| `runs:dispatch` | `dispatch_run`, `fire_plan`, `run_job_change_sweep`, `set_plan_schedule` |
+| `runs:dispatch` | `dispatch_run`, `fire_plan`, `run_job_change_sweep`, `set_plan_schedule`, `set_plan_trigger` |
 | `runs:reverse` | `reverse_audit_event` |
 | `runs:delete` | `delete_run` |
 | `templates:write` | `create_rule_template`, `delete_rule_template`, `set_assignment_config`, `set_contact_owner_inheritance`, `set_new_employer_record`, `set_owner_mode`, `set_tam`, `set_too_long_text`, `update_rule_template` |
